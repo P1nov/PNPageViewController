@@ -87,7 +87,6 @@
 		2D86226021A8E1DD00FED9D8 = {
 			isa = PBXGroup;
 			children = (
-				2D86229E21A8E21E00FED9D8 /* PNSegmentedControl */,
 				2D86226B21A8E1DD00FED9D8 /* PNPageController */,
 				2D86228421A8E1DE00FED9D8 /* PNPageControllerTests */,
 				2D86228F21A8E1DE00FED9D8 /* PNPageControllerUITests */,
@@ -108,6 +107,7 @@
 		2D86226B21A8E1DD00FED9D8 /* PNPageController */ = {
 			isa = PBXGroup;
 			children = (
+				2D86229E21A8E21E00FED9D8 /* PNSegmentedControl */,
 				2D86226C21A8E1DD00FED9D8 /* AppDelegate.h */,
 				2D86226D21A8E1DD00FED9D8 /* AppDelegate.m */,
 				2D86226F21A8E1DD00FED9D8 /* PNPageController.h */,
@@ -148,7 +148,7 @@
 				2D8622A221A8E21E00FED9D8 /* HYSegmentedView.h */,
 			);
 			name = PNSegmentedControl;
-			path = ../PNSegmentedControl;
+			path = ../../PNSegmentedControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
