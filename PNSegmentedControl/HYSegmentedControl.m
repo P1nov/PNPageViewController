@@ -8,7 +8,8 @@
 
 #import "HYSegmentedControl.h"
 #import "HYSegmentedView.h"
-#import "DialViewController.h"
+
+#define colorWithRGBA(r, g, b, a) [UIColor colorWithRed:r/255.f green:g/255.f blue:b/255.f alpha:a]
 
 @interface HYSegmentedControl()<HYSegmentedViewDelegate>{
     NSArray *dataArray;
@@ -114,18 +115,6 @@
     [UIView animateWithDuration:0.2 animations:^{
         UIViewController *currentController = [UIApplication sharedApplication].keyWindow.rootViewController;
         [weakSelf.indicator setFrame:CGRectMake((tag - 50)*weakSelf.frame.size.width/self.titleArray.count , weakSelf.frame.size.height - 2, weakSelf.frame.size.width/self.titleArray.count, 2)];
-        if([((UITabBarController *)currentController).viewControllers[0] isKindOfClass:[DialViewController class]]){
-            UIView *currentView;
-            [weakSelf.indicator setFrame:CGRectMake((tag - 50)*weakSelf.frame.size.width/self.titleArray.count , weakSelf.frame.size.height - 2, weakSelf.frame.size.width/(self.titleArray.count*3), 2)];
-            for(HYSegmentedView *view in self.subviews){
-                if (view.tag) {
-                    if(view.tag == tag){
-                        currentView = view;
-                    }
-                }
-            }
-            [weakSelf.indicator setCenter:CGPointMake(currentView.center.x, self.frame.size.height-2)];
-        }
     }];
     [self.delegate clickToChangeView:tag-50];
 }

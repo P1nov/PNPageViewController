@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PNPageController' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+pod 'Masonry'
+  # Pods for PNPageController
+
+  target 'PNPageControllerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PNPageControllerUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

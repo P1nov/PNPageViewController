@@ -7,6 +7,9 @@
 //
 
 #import "HYSegmentedView.h"
+#import "Masonry.h"
+
+#define colorWithRGBA(r, g, b, a) [UIColor colorWithRed:r/255.f green:g/255.f blue:b/255.f alpha:a]
 
 @interface HYSegmentedView()
 
@@ -37,8 +40,8 @@
         self.tipLabel.textAlignment = NSTextAlignmentCenter;
         [self addSubview:self.tipLabel];
         [self.tipLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.centerX.mas_equalTo(self.mas_centerX);
-            if(data == nil){
+            make.centerY.mas_equalTo(self.mas_centerX);
+            if(data==nil){
                 make.centerY.mas_equalTo(self.mas_centerY);
             }else{
                 make.bottom.mas_equalTo(self.mas_centerY);
@@ -46,6 +49,7 @@
             make.width.mas_equalTo(self.mas_width).multipliedBy(0.7);
             make.height.mas_equalTo(self.mas_height).multipliedBy(0.3);
         }];
+
         [self addSubview:self.dataLabel];
         [self.dataLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.centerX.mas_equalTo(self.tipLabel.mas_centerX);

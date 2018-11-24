@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "OrderModel.h"
 
 @protocol HYSegmentedControlDelegate<NSObject>
 
@@ -18,8 +17,6 @@
 @interface HYSegmentedControl : UIView
 
 @property (nonatomic, strong) NSArray *titleArray;
-
-@property (nonatomic, strong) OrderModel *model;
 
 @property (nonatomic, strong) UIView *indicator;
 

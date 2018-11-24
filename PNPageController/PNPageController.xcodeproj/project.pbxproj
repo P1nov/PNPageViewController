@@ -17,6 +17,9 @@
 		2D86229121A8E1DE00FED9D8 /* PNPageControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86229021A8E1DE00FED9D8 /* PNPageControllerUITests.m */; };
 		2D8622A321A8E21E00FED9D8 /* HYSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D86229F21A8E21E00FED9D8 /* HYSegmentedControl.m */; };
 		2D8622A421A8E21E00FED9D8 /* HYSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8622A021A8E21E00FED9D8 /* HYSegmentedView.m */; };
+		A77C3EC96F5A0BC55051F038 /* libPods-PNPageController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68497D6EAF414243C2B52D35 /* libPods-PNPageController.a */; };
+		B2C2109B7A54C1991A546E2C /* libPods-PNPageControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8A928F5BE7F4C3FCDAC449 /* libPods-PNPageControllerTests.a */; };
+		C63164A4908D113726BB6217 /* libPods-PNPageControllerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A58AB9DCE236013FAF7AA0 /* libPods-PNPageControllerUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05709A425F63FD56B84BFD8E /* Pods-PNPageControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNPageControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PNPageControllerTests/Pods-PNPageControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		23581A4A1C6DBFC89B28A24D /* Pods-PNPageControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNPageControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PNPageControllerTests/Pods-PNPageControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		26A58AB9DCE236013FAF7AA0 /* libPods-PNPageControllerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PNPageControllerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D86226921A8E1DD00FED9D8 /* PNPageController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PNPageController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D86226C21A8E1DD00FED9D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D86226D21A8E1DD00FED9D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +63,12 @@
 		2D8622A021A8E21E00FED9D8 /* HYSegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSegmentedView.m; sourceTree = "<group>"; };
 		2D8622A121A8E21E00FED9D8 /* HYSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSegmentedControl.h; sourceTree = "<group>"; };
 		2D8622A221A8E21E00FED9D8 /* HYSegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSegmentedView.h; sourceTree = "<group>"; };
+		68497D6EAF414243C2B52D35 /* libPods-PNPageController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PNPageController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A45AD2348AF5641B60D4556 /* Pods-PNPageController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNPageController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PNPageController/Pods-PNPageController.debug.xcconfig"; sourceTree = "<group>"; };
+		CE7DA7BAB50CC9425E140F1A /* Pods-PNPageControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNPageControllerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PNPageControllerUITests/Pods-PNPageControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFC6C3E9D599A813F858138D /* Pods-PNPageController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNPageController.release.xcconfig"; path = "Pods/Target Support Files/Pods-PNPageController/Pods-PNPageController.release.xcconfig"; sourceTree = "<group>"; };
+		DF8A928F5BE7F4C3FCDAC449 /* libPods-PNPageControllerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PNPageControllerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C4071E2274A8A8B310CF22 /* Pods-PNPageControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNPageControllerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PNPageControllerUITests/Pods-PNPageControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77C3EC96F5A0BC55051F038 /* libPods-PNPageController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C2109B7A54C1991A546E2C /* libPods-PNPageControllerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63164A4908D113726BB6217 /* libPods-PNPageControllerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5F5620EC5922C59D6CF7C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68497D6EAF414243C2B52D35 /* libPods-PNPageController.a */,
+				DF8A928F5BE7F4C3FCDAC449 /* libPods-PNPageControllerTests.a */,
+				26A58AB9DCE236013FAF7AA0 /* libPods-PNPageControllerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2D86226021A8E1DD00FED9D8 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +116,8 @@
 				2D86228421A8E1DE00FED9D8 /* PNPageControllerTests */,
 				2D86228F21A8E1DE00FED9D8 /* PNPageControllerUITests */,
 				2D86226A21A8E1DD00FED9D8 /* Products */,
+				8A70B666EBA832B5245FBA20 /* Pods */,
+				2A5F5620EC5922C59D6CF7C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,8 +137,6 @@
 				2D86229E21A8E21E00FED9D8 /* PNSegmentedControl */,
 				2D86226C21A8E1DD00FED9D8 /* AppDelegate.h */,
 				2D86226D21A8E1DD00FED9D8 /* AppDelegate.m */,
-				2D86226F21A8E1DD00FED9D8 /* PNPageController.h */,
-				2D86227021A8E1DD00FED9D8 /* PNPageController.m */,
 				2D86227221A8E1DD00FED9D8 /* Main.storyboard */,
 				2D86227521A8E1DE00FED9D8 /* Assets.xcassets */,
 				2D86227721A8E1DE00FED9D8 /* LaunchScreen.storyboard */,
@@ -142,6 +167,8 @@
 		2D86229E21A8E21E00FED9D8 /* PNSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
+				2D86226F21A8E1DD00FED9D8 /* PNPageController.h */,
+				2D86227021A8E1DD00FED9D8 /* PNPageController.m */,
 				2D86229F21A8E21E00FED9D8 /* HYSegmentedControl.m */,
 				2D8622A021A8E21E00FED9D8 /* HYSegmentedView.m */,
 				2D8622A121A8E21E00FED9D8 /* HYSegmentedControl.h */,
@@ -151,6 +178,19 @@
 			path = ../../PNSegmentedControl;
 			sourceTree = "<group>";
 		};
+		8A70B666EBA832B5245FBA20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A45AD2348AF5641B60D4556 /* Pods-PNPageController.debug.xcconfig */,
+				CFC6C3E9D599A813F858138D /* Pods-PNPageController.release.xcconfig */,
+				05709A425F63FD56B84BFD8E /* Pods-PNPageControllerTests.debug.xcconfig */,
+				23581A4A1C6DBFC89B28A24D /* Pods-PNPageControllerTests.release.xcconfig */,
+				CE7DA7BAB50CC9425E140F1A /* Pods-PNPageControllerUITests.debug.xcconfig */,
+				F8C4071E2274A8A8B310CF22 /* Pods-PNPageControllerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D86229521A8E1DE00FED9D8 /* Build configuration list for PBXNativeTarget "PNPageController" */;
 			buildPhases = (
+				92590F09FDB99C734F300C76 /* [CP] Check Pods Manifest.lock */,
 				2D86226521A8E1DD00FED9D8 /* Sources */,
 				2D86226621A8E1DD00FED9D8 /* Frameworks */,
 				2D86226721A8E1DD00FED9D8 /* Resources */,
@@ -175,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D86229821A8E1DE00FED9D8 /* Build configuration list for PBXNativeTarget "PNPageControllerTests" */;
 			buildPhases = (
+				6D64F142CB306C5A1FBF69BE /* [CP] Check Pods Manifest.lock */,
 				2D86227D21A8E1DE00FED9D8 /* Sources */,
 				2D86227E21A8E1DE00FED9D8 /* Frameworks */,
 				2D86227F21A8E1DE00FED9D8 /* Resources */,
@@ -193,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D86229B21A8E1DE00FED9D8 /* Build configuration list for PBXNativeTarget "PNPageControllerUITests" */;
 			buildPhases = (
+				58E01215C0E23D26FC3DFC47 /* [CP] Check Pods Manifest.lock */,
 				2D86228821A8E1DE00FED9D8 /* Sources */,
 				2D86228921A8E1DE00FED9D8 /* Frameworks */,
 				2D86228A21A8E1DE00FED9D8 /* Resources */,
@@ -275,6 +318,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58E01215C0E23D26FC3DFC47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PNPageControllerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D64F142CB306C5A1FBF69BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PNPageControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92590F09FDB99C734F300C76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PNPageController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D86226521A8E1DD00FED9D8 /* Sources */ = {
@@ -454,11 +566,13 @@
 		};
 		2D86229621A8E1DE00FED9D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A45AD2348AF5641B60D4556 /* Pods-PNPageController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CS8833NPBP;
 				INFOPLIST_FILE = PNPageController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,11 +585,13 @@
 		};
 		2D86229721A8E1DE00FED9D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC6C3E9D599A813F858138D /* Pods-PNPageController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CS8833NPBP;
 				INFOPLIST_FILE = PNPageController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +604,7 @@
 		};
 		2D86229921A8E1DE00FED9D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05709A425F63FD56B84BFD8E /* Pods-PNPageControllerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +624,7 @@
 		};
 		2D86229A21A8E1DE00FED9D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23581A4A1C6DBFC89B28A24D /* Pods-PNPageControllerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +644,7 @@
 		};
 		2D86229C21A8E1DE00FED9D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7DA7BAB50CC9425E140F1A /* Pods-PNPageControllerUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CS8833NPBP;
@@ -544,6 +663,7 @@
 		};
 		2D86229D21A8E1DE00FED9D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C4071E2274A8A8B310CF22 /* Pods-PNPageControllerUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CS8833NPBP;

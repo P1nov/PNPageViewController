@@ -27,8 +27,12 @@
 }
 
 - (instancetype)initWithControllers:(NSArray<UIViewController *> *)controllers{
-    _controllers = controllers;
-    [self.view addSubview:self.segmentedControl];
+    self = [super init];
+    if(self){
+        _controllers = controllers;
+        [self.view addSubview:self.segmentedControl];
+    }
+    return self;
 }
 
 #pragma mark delegate & datasource
@@ -65,6 +69,7 @@
         _segmentedControl = [[HYSegmentedControl alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 40) andSelectIndex:0 andTitle:titleArray andData:nil];
         _segmentedControl.delegate = self;
     }
+    return _segmentedControl;
 }
 
 - (UIScrollView *)backgroundScrollView{
