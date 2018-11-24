@@ -9,7 +9,7 @@
 #import "HYSegmentedView.h"
 #import "Masonry.h"
 
-#define colorWithRGBA(r, g, b, a) [UIColor colorWithRed:r/255.f green:g/255.f blue:b/255.f alpha:a]
+#define colorWithRGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 
 @interface HYSegmentedView()
 
